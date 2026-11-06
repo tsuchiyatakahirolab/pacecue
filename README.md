@@ -2,7 +2,7 @@
 
 PaceCue helps you finish a routine by a chosen time. It shows one step on Even G2, recalculates the remaining time when you run late, and keeps each step's minimum time in the plan. Optional steps are skipped only when you choose to skip them.
 
-[日本語](README.ja.md) · [Product and competition](docs/PRODUCT.md) · [Privacy](docs/PRIVACY.md) · [Submission guide](docs/SUBMISSION.md)
+[日本語](README.ja.md) · [Product and competition](docs/PRODUCT.md) · [Privacy](docs/PRIVACY.md) · [Validation record](docs/QA.md) · [Submission guide](docs/SUBMISSION.md)
 
 ## Use the time you have
 
@@ -31,6 +31,8 @@ npm run dev
 On Windows, you can also double-click `start-preview.cmd`. Open `http://localhost:5173`. The phone page includes a preview of the glasses content and works without a connected G2. This browser preview is useful for trying the routine planner; it does not reproduce the device's font, Bluetooth connection, or locked-phone lifecycle.
 
 ## Build and package
+
+Download the prepared [PaceCue 0.1.0 package](submission/pacecue-0.1.0.ehpk) and [SHA256SUMS](submission/SHA256SUMS). Physical G2/R1 validation and Even Hub submission and approval remain pending. The package hash and completed software checks are recorded in [QA.md](docs/QA.md).
 
 ```sh
 npm run check
@@ -64,7 +66,7 @@ The current app has no per-use AI or server bill. Installing dependencies, obtai
 
 ## Release status
 
-Version 0.1.0 is prepared for software evaluation. Physical G2/R1 validation and Even Hub submission, approval, and publication have not been completed. The intended public source and support repository is `tsuchiyatakahirolab/pacecue`; publication is pending authenticated access.
+The source was published on 7 November 2026 (JST) at [tsuchiyatakahirolab/pacecue](https://github.com/tsuchiyatakahirolab/pacecue). The initial source publication is commit [4ff62b0](https://github.com/tsuchiyatakahirolab/pacecue/commit/4ff62b02a3896e03703122b50f5060fe298c6c32). Version 0.1.0 is prepared for software evaluation; physical G2/R1 validation and Even Hub submission, approval, and publication have not been completed.
 
 The timer is a planning aid based on the durations you enter. Background display delivery depends on the host app, and timestamp recovery does not guarantee that a cue appeared while the app was suspended. [Product notes](docs/PRODUCT.md) explain the difference from existing routine timers and checklists.
 

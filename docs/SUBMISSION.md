@@ -6,7 +6,7 @@ Prepared on 6 November 2026 for version 0.1.0. This document is a preparation an
 
 | Item | Status |
 | --- | --- |
-| Source and documentation | Prepared for review in this project. |
+| Source and documentation | Published in the public [GitHub repository](https://github.com/tsuchiyatakahirolab/pacecue); the initial source revision is recorded in [QA.md](QA.md). |
 | Automated checks | 35 automated tests, TypeScript checking, and the Vite production build passed. See [QA.md](QA.md). |
 | Package | `release/pacecue-0.1.0.ehpk` is generated with SDK 0.0.16 and includes `THIRD_PARTY_NOTICES.txt`. Its size and SHA-256 are recorded in [QA.md](QA.md). |
 | Browser checks | Japanese start, pause, reload/restore, short-deadline overrun, optional skip/undo, and a 375-pixel mobile viewport were checked. See [QA.md](QA.md). |
@@ -15,7 +15,7 @@ Prepared on 6 November 2026 for version 0.1.0. This document is a preparation an
 | Physical G2/R1 testing | Not performed. |
 | Even Hub upload and review | Not completed; authenticated developer access is required. |
 | Even Hub publication | Not completed. |
-| GitHub publication | Intended repository: `tsuchiyatakahirolab/pacecue`; authenticated publication is pending. |
+| GitHub publication | Verified on 7 November 2026 (JST), public repository with default branch `main`; initial source commit [4ff62b0](https://github.com/tsuchiyatakahirolab/pacecue/commit/4ff62b02a3896e03703122b50f5060fe298c6c32). |
 
 ## Manifest and listing
 
@@ -107,7 +107,7 @@ Sign in to the developer account and verify ownership before creating the applic
 
 Use the current [Even Hub CLI guide](https://hub.evenrealities.com/docs/cli) for account, create, upload, and beta operations. Submission for review and public publication use the developer portal. A successful upload is a private build; an approval is a separate result from publication.
 
-The source/support repository and a publicly accessible privacy-policy URL must be verified after GitHub publication. Until then, `tsuchiyatakahirolab/pacecue` is an intended destination, not a live support link. Do not enter a guessed hosted URL in a required portal field.
+The public source and support repository is [tsuchiyatakahirolab/pacecue](https://github.com/tsuchiyatakahirolab/pacecue). The [privacy notice](https://github.com/tsuchiyatakahirolab/pacecue/blob/main/docs/PRIVACY.md) is included in the repository. Verify that the privacy-policy URL used in the portal is publicly accessible and accepted by the current uploader before submission.
 
 For the review notes, include the temporary routine steps above and state the physical configurations actually tested. State that PaceCue has no sign-in, paid API, backend endpoint, or external data prerequisite. Explain the glasses-only chooser and start flow, the remembered finish time, the fixed deadline during a pause, and the user action required to skip an optional step.
 

@@ -34,6 +34,8 @@ Windowsでは、Node.js 24以上を導入してから`start-preview.cmd`をダ�
 
 ## ビルドしてパッケージを作ります
 
+作成済みの[申請用パッケージ](submission/pacecue-0.1.0.ehpk)と[SHA256SUMS](submission/SHA256SUMS)を取得できます。G2/R1実機での確認とEven Hubへの申請・承認は未完了です。パッケージの検証値とソフトウェアの確認結果は[確認結果](docs/QA.md)に記録しています。
+
 ```sh
 npm run check
 npm run pack
@@ -68,7 +70,7 @@ JSONの書き出し対象はルーティンのテンプレートであり、実�
 
 2026年11月6日時点で、自動テスト35件、TypeScriptの確認、Viteによる本番用ビルドが成功しています。ブラウザーでの日本語表示、開始、一時停止、再読み込みによる復元と、公式Simulator 0.9.5での英語・日本語の動作を確認しました。検証対象のファイル、結果と限界は[確認結果](docs/QA.md)に記録しています。
 
-G2/R1実機での確認、Even Hubへの申請、承認、ストア公開は未完了です。GitHubの公開先は`tsuchiyatakahirolab/pacecue`を予定しており、GitHubとEven Hubの操作には各サービスへのログインが必要です。残る実機確認と申請項目は[申請手順](docs/SUBMISSION.md)にまとめています。
+ソースコードは2026年11月7日（JST）に[tsuchiyatakahirolab/pacecue](https://github.com/tsuchiyatakahirolab/pacecue)で公開しました。初回ソース公開のコミットは[4ff62b0](https://github.com/tsuchiyatakahirolab/pacecue/commit/4ff62b02a3896e03703122b50f5060fe298c6c32)です。G2/R1実機での確認、Even Hubへの申請、承認、ストア公開は未完了であり、残る確認・申請項目は[申請手順](docs/SUBMISSION.md)にまとめています。
 
 時間配分は入力した所要時間に基づく計算です。スマートフォンがバックグラウンドに移った際の表示はEvenアプリの動作にも依存し、再開時の時刻補正だけで停止中の表示まで保証することはできません。既存アプリとの違いは[開発方針と競合比較](docs/PRODUCT.md)で説明しています。
 

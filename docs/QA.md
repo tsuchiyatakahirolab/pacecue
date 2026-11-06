@@ -1,6 +1,6 @@
 # PaceCue validation record
 
-Recorded on 6 November 2026 for PaceCue 0.1.0, package ID `com.tsuchiyalab.pacecue`. The automated checks, browser checks, and official simulator runs below were completed on the build identified here. Physical G2/R1 testing has not been performed, and neither GitHub publication nor an Even Hub submission has been completed.
+Software checks recorded on 6 November 2026 for PaceCue 0.1.0, package ID `com.tsuchiyalab.pacecue`. The automated checks, browser checks, and official simulator runs below were completed on the build identified here. GitHub source publication was verified on 7 November 2026 (JST); physical G2/R1 testing and Even Hub submission remain pending.
 
 ## Identify the checked build
 
@@ -16,6 +16,18 @@ Recorded on 6 November 2026 for PaceCue 0.1.0, package ID `com.tsuchiyalab.pacec
 | Third-party notices | The package includes `THIRD_PARTY_NOTICES.txt`. |
 
 The English and Japanese simulator runs used the same JavaScript hash shown above. The third-party notice file was added between the two runs, so an aggregate hash of the whole served directory can differ without a JavaScript change. A later code or asset change requires a new build record and matching screenshots.
+
+## Source publication is recorded
+
+| Item | Verified result |
+| --- | --- |
+| Repository | [tsuchiyatakahirolab/pacecue](https://github.com/tsuchiyatakahirolab/pacecue) |
+| Visibility / default branch | Public / `main` |
+| Source publication date | 7 November 2026 (JST) |
+| Initial source publication commit | [4ff62b02a3896e03703122b50f5060fe298c6c32](https://github.com/tsuchiyatakahirolab/pacecue/commit/4ff62b02a3896e03703122b50f5060fe298c6c32) |
+| Initial source tree | `d0e6b07b219b9049e7dc4db692d01156b0987622` |
+
+All 55 paths in the initial published source snapshot matched the prepared files by Git blob hash and file mode. This identifies the first source publication, not the current branch tip after documentation or package additions. The downloadable [submission package](../submission/pacecue-0.1.0.ehpk) is a copy of the build recorded above; its [SHA256SUMS](../submission/SHA256SUMS) records the same package hash.
 
 ## Automated checks passed
 
@@ -48,8 +60,8 @@ Official Even Hub Simulator 0.9.5 ran the production JavaScript in English and J
 
 The contextual menu was opened through the simulator's `context_menu` action. The physical tap-then-hold sequence was not tested. The raw captures contain green glyphs on a transparent background; inspection of the alpha channel confirmed that the Japanese post-skip frame included its gesture hint and both footer lines. A viewer's treatment of transparency can change how these captures appear.
 
-## Device checks and publication remain pending
+## Device checks and Even Hub publication remain pending
 
 No phone model, mobile operating system, Even App version, G2 firmware, or R1 firmware is recorded as physically tested. The SDK's Even App 2.2.10 installation floor is not a tested compatibility claim. The [submission guide](SUBMISSION.md) lists the remaining beta-install, cold-launch, locked-phone, gesture, reconnect, exit, and first-party-app restart checks, including at least five minutes with the phone locked.
 
-GitHub publication and Even Hub upload/review require login to the relevant accounts. The intended repository remains `tsuchiyatakahirolab/pacecue`; this record does not claim that a repository, store listing, or review submission is public. Update this document only with observed results from the identified build.
+Even Hub upload and review still require authenticated developer access. No Even Hub upload, review submission, approval, or store publication has been recorded. Update this document only with observed results from the identified build.

@@ -12,8 +12,8 @@ Prepared for version 0.1.0 on 6 November 2026. This is editable submission copy;
 | Category | Productivity, subject to the portal's available categories. |
 | Languages | English and Japanese. |
 | Tags | routine, timer, planning, productivity. |
-| Support | Intended GitHub repository `tsuchiyatakahirolab/pacecue`; verify after publication. |
-| Privacy | Use the published URL for `docs/PRIVACY.md` after verifying that it is publicly accessible. |
+| Support | Public source and support: [tsuchiyatakahirolab/pacecue](https://github.com/tsuchiyatakahirolab/pacecue), published on 7 November 2026 (JST). |
+| Privacy | [Privacy notice](https://github.com/tsuchiyatakahirolab/pacecue/blob/main/docs/PRIVACY.md). Verify accessibility and acceptance of the submitted URL in the current portal. |
 
 ## English tagline
 

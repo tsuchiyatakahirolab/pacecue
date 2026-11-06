@@ -1,6 +1,6 @@
 # PaceCue privacy notice
 
-Version 0.1.0. Last updated: 6 November 2026. Developer: TSUCHIYA LAB.
+Version 0.1.0. Last updated: 7 November 2026 (JST). Developer: TSUCHIYA LAB.
 
 ## What PaceCue stores
 
@@ -28,13 +28,13 @@ PaceCue does not add application-level encryption to its local JSON data or expo
 
 ## Contact and updates
 
-The intended public source and support repository is `tsuchiyatakahirolab/pacecue`; publication is pending. Once that repository is available, its issue tracker can be used for product questions without attaching private routines or exports. A future version that changes the app's data handling should update this notice with the new version and date.
+The public source and support repository is [tsuchiyatakahirolab/pacecue](https://github.com/tsuchiyatakahirolab/pacecue), published on 7 November 2026 (JST). Use the repository's issue tracker for product questions without attaching private routines or exports. A future version that changes the app's data handling should update this notice with the new version and date.
 
 ---
 
 # PaceCueのプライバシーについて
 
-対象：v0.1.0。更新日：2026年11月6日。開発者：TSUCHIYA LAB。
+対象：v0.1.0。更新日：2026年11月7日（JST）。開発者：TSUCHIYA LAB。
 
 PaceCueは、入力したルーティン、手順名、時間設定、省略可能な手順、言語設定、ルーティンごとの前回の終了時刻、再開に必要な進捗と日時を保存します。Even Hub内ではEvenアプリの保存APIを使用し、プレビューと復旧用にブラウザーにも保存します。通常のブラウザーで使用したデータは、そのブラウザーの保存領域に残り、端末間の同期は行いません。
 
@@ -44,4 +44,4 @@ JSONの読み込みはユーザーが選んだファイルからテンプレー�
 
 アプリのリセット操作により、保存したルーティンと進捗を初期状態に置き換えられます。別のブラウザーで利用したプレビューや書き出したファイルは、必要に応じてそれぞれ削除してください。端末内のデータを失った場合、開発者のサーバーから復元することはできません。
 
-PaceCueは保存データと書き出しファイルに独自の暗号化を加えません。ブラウザーの保存データは平文であり、端末内保存の保護はEvenアプリとOSの仕組みに依存します。公開予定のサポート先は`tsuchiyatakahirolab/pacecue`ですが、GitHubへの公開は未完了です。
+PaceCueは保存データと書き出しファイルに独自の暗号化を加えません。ブラウザーの保存データは平文であり、端末内保存の保護はEvenアプリとOSの仕組みに依存します。ソースコードとサポート先は[tsuchiyatakahirolab/pacecue](https://github.com/tsuchiyatakahirolab/pacecue)で、2026年11月7日（JST）に公開しました。
