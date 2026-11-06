@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+test-results/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.evenhub/
+coverage/
+qa/

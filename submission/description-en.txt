@@ -1,0 +1,11 @@
+PaceCue helps you finish a routine by a chosen time. Prepare to leave home, get ready for work, or follow a sequence of tasks while the next step stays in view on Even G2.
+
+On the glasses, swipe to choose a saved or starter routine, check the finish date and time, and tap to start. PaceCue remembers each routine's last finish time; without one, it uses the usual step durations and margin.
+
+Each step has a normal and minimum duration. When you run late, PaceCue recalculates the remaining time and shows when the deadline cannot be met. Optional steps are skipped only when you choose.
+
+Tap the current step to complete it. A tap on the next-step or timing view returns to the current step. Tap, then hold to open the menu for pause, resume, optional skips, and undo. Pausing does not move the deadline.
+
+Use the phone to edit routines or enter a finish time. Import and export routine templates as JSON. English and Japanese are available. Routines start manually.
+
+PaceCue requires no additional account, subscription, AI API key, or application server. Routine data stays on your device. The Even Realities host app and distribution platform operate separately.

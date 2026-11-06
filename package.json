@@ -1,0 +1,25 @@
+{
+  "name": "pacecue",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Deadline-aware daily routines for Even G2. No account, cloud, or AI API.",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.ts",
+    "check": "npm run test && npm run build",
+    "pack": "npm run build && evenhub pack app.json dist -o release/pacecue-0.1.0.ehpk --sdk-ver 0.0.16"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "0.0.16"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "0.2.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.6"
+  }
+}

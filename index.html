@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f4f5f0" />
+  <meta name="description" content="PaceCue plans daily routines around your finish time. Keep essential steps, adjust flexible time, and see your next action on Even G2." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' ws: wss:; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <title>PaceCue</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="PaceCue home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 5h16M8 27h16M10 5v6l6 5-6 5v6M22 5v6l-6 5 6 5v6" /></svg><span>PaceCue</span><span class="version">0.1</span></a>
+    <div class="header-tools"><span class="local-label"><span class="status-dot"></span><span data-i18n="localOnly">Stays on your device</span></span><label class="sr-only" for="language">Language</label><select id="language"><option value="en">EN</option><option value="ja">日本語</option></select></div>
+  </header>
+  <main>
+    <section class="intro"><p class="eyebrow" data-i18n="eyebrow">DAILY ROUTINES, WITH A FINISH TIME</p><h1 data-i18n="heading">Your next step.<br />Time to finish.</h1><p class="intro-copy" data-i18n="intro">Set when you need to be ready. PaceCue adjusts the remaining plan and keeps essential steps.</p></section>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+    <div id="storage-warning" class="notice" role="alert" hidden></div>
+    <div class="workspace">
+      <div class="planner-column">
+        <section class="card setup-card" aria-labelledby="routine-heading">
+          <div class="section-title"><span class="eyebrow" data-i18n="chooseRoutine">YOUR ROUTINE</span><button id="edit-routine" class="text-button" data-i18n="edit">Edit steps</button></div>
+          <label class="sr-only" for="routine-select" data-i18n="chooseRoutine">Your routine</label><select id="routine-select" class="routine-select"></select>
+          <div class="schedule-row"><div class="field"><label for="deadline" data-i18n="finishBy">Be ready by</label><input id="deadline" type="datetime-local" required /></div><button id="quick-deadline" class="subtle-button" data-i18n="suggestTime">Use usual time</button></div>
+          <p id="routine-meta" class="muted"></p>
+          <button id="start" class="primary-button"><span data-i18n="start">Start routine</span><span aria-hidden="true">↗</span></button>
+          <p id="start-error" class="error-message" role="alert" hidden></p>
+          <div class="routine-tools"><button id="new-routine" class="text-button" data-i18n="newRoutine">New routine</button><button id="transfer" class="text-button" data-i18n="transfer">Import / export</button></div>
+        </section>
+        <section class="card plan-card" aria-labelledby="plan-heading">
+          <div class="section-title"><h2 id="plan-heading" data-i18n="remainingPlan">The remaining plan</h2><span id="step-count" class="count-badge"></span></div>
+          <div id="plan-summary" class="plan-summary"><span id="plan-status" class="status-label"></span><p id="plan-explanation"></p></div>
+          <ol id="plan-list" class="plan-list"></ol>
+          <div class="buffer-row"><span class="buffer-icon" aria-hidden="true">◷</span><span data-i18n="buffer">Reserved margin</span><span id="buffer-value"></span></div>
+          <p class="plan-footnote" data-i18n="planNote">Times are estimates. A step changes only when you mark it done or skip an optional step.</p>
+        </section>
+      </div>
+      <div class="glasses-column">
+        <section class="lens-panel" aria-labelledby="lens-heading">
+          <div class="lens-top"><h2 id="lens-heading" data-i18n="onYourGlasses">ON YOUR GLASSES</h2><span id="bridge-state" class="connection-state">Preview</span></div>
+          <div class="lens-screen" aria-label="Glasses display preview">
+            <div id="hud-header" class="hud-header"></div><div class="hud-rule"></div><div id="hud-title" class="hud-title"></div><div id="hud-body" class="hud-body"></div><div id="hud-footer" class="hud-footer"></div>
+          </div>
+          <div class="lens-bottom"><span>576 × 288</span><span data-i18n="oneStep">One step at a time</span></div>
+        </section>
+        <section id="session-controls" class="card controls-card" hidden>
+          <div class="section-title"><span id="session-state" class="eyebrow"></span><span id="deadline-clock" class="muted"></span></div>
+          <div class="session-numbers"><div><span data-i18n="stepTime">This step</span><strong id="current-clock">00:00</strong></div><div><span data-i18n="untilDeadline">Until finish time</span><strong id="remaining-clock">00:00</strong></div></div>
+          <p id="current-advice" class="muted"></p>
+          <button id="complete" class="primary-button" data-i18n="doneNext">Done, next step</button>
+          <div class="control-row"><button id="pause" class="subtle-button" data-i18n="pause">Pause</button><button id="skip" class="subtle-button" data-i18n="skipOptional">Skip optional</button><button id="undo" class="subtle-button" data-i18n="undo">Undo</button></div>
+          <div class="control-row minor-controls"><button id="change-time" class="text-button" data-i18n="changeTime">Change finish time</button><button id="end" class="text-button" data-i18n="end">End routine</button></div>
+        </section>
+        <section class="how-to"><h2 data-i18n="howTo">Start on your phone. Continue on your glasses.</h2><dl><div><dt data-i18n="tap">Tap</dt><dd data-i18n="tapAction">Complete the current step</dd></div><div><dt data-i18n="swipe">Swipe</dt><dd data-i18n="swipeAction">See the next step or time overview</dd></div><div><dt data-i18n="longPress">Long press</dt><dd data-i18n="longPressAction">Pause, skip an optional step, or undo</dd></div><div><dt data-i18n="doubleTap">Double tap</dt><dd data-i18n="doubleTapAction">Return to the glasses menu</dd></div></dl><p data-i18n="foregroundNote">Keep PaceCue active on the glasses while using a routine. It cannot alert you over other apps. Reopening recovers the plan from the actual time.</p><button id="reconnect" class="text-button" data-i18n="reconnect">Connect to glasses</button></section>
+      </div>
+    </div>
+    <footer class="site-footer"><span>TSUCHIYA LAB</span><p data-i18n="freeNote">Free source code. No account, ads, analytics, or paid API.</p><button id="privacy" class="text-button" data-i18n="privacy">Privacy & data</button></footer>
+  </main>
+  <dialog id="editor-dialog">
+    <form id="editor-form"><div class="dialog-heading"><h2 data-i18n="editRoutine">Edit routine</h2><button type="button" class="close-button" data-close="editor-dialog" aria-label="Close">×</button></div>
+      <div class="field"><label for="routine-title" data-i18n="routineName">Routine name</label><input id="routine-title" maxlength="80" required /></div>
+      <div class="field buffer-field"><label for="buffer-min" data-i18n="bufferMinutes">Reserved margin (minutes)</label><input id="buffer-min" type="number" min="0" max="360" step="any" required /></div>
+      <p class="muted" data-i18n="editorNote">Set the usual time and the shortest useful time for each step. Essential steps are never suggested for skipping.</p>
+      <div id="editor-steps"></div><button id="add-step" type="button" class="subtle-button" data-i18n="addStep">Add step</button><p id="editor-error" class="error-message" role="alert" hidden></p>
+      <div class="dialog-actions"><button id="delete-routine" type="button" class="text-button danger" data-i18n="deleteRoutine">Delete routine</button><button type="submit" class="primary-button" data-i18n="saveRoutine">Save routine</button></div>
+    </form>
+  </dialog>
+  <dialog id="transfer-dialog"><div class="dialog-heading"><h2 data-i18n="transfer">Import / export</h2><button class="close-button" data-close="transfer-dialog" aria-label="Close">×</button></div><p class="muted" data-i18n="transferNote">Export routines as a file or selectable text.</p><button id="export" class="primary-button" data-i18n="exportRoutines">Export routines</button><label class="file-label" for="import-file" data-i18n="chooseFile">Choose a routines JSON file</label><input id="import-file" type="file" accept=".json,application/json" /><label class="file-label" for="transfer-text" data-i18n="portableJSON">Routines JSON (copy or paste)</label><textarea id="transfer-text" rows="6" spellcheck="false"></textarea><div class="control-row"><button id="select-json" class="subtle-button" data-i18n="selectJSON">Select text</button><button id="import-text" class="subtle-button" data-i18n="importText">Import pasted text</button></div><p id="transfer-error" class="error-message" role="alert" hidden></p></dialog>
+  <dialog id="privacy-dialog"><div class="dialog-heading"><h2 data-i18n="privacy">Privacy & data</h2><button class="close-button" data-close="privacy-dialog" aria-label="Close">×</button></div><div id="privacy-copy"></div><p id="storage-state" class="muted"></p><button id="export-backup" class="subtle-button" data-i18n="exportRoutines">Export routines</button><button id="reset" class="text-button danger" data-i18n="resetData">Reset this app's data</button></dialog>
+  <dialog id="time-dialog"><form id="time-form"><div class="dialog-heading"><h2 data-i18n="changeTime">Change finish time</h2><button type="button" class="close-button" data-close="time-dialog" aria-label="Close">×</button></div><div class="field"><label for="new-deadline" data-i18n="finishBy">Be ready by</label><input id="new-deadline" type="datetime-local" required /></div><p id="time-error" class="error-message" role="alert" hidden></p><div class="dialog-actions"><button type="submit" class="primary-button" data-i18n="applyTime">Update plan</button></div></form></dialog>
+  <dialog id="confirm-dialog"><form method="dialog"><h2 id="confirm-title"></h2><p id="confirm-copy"></p><div class="dialog-actions"><button value="cancel" class="subtle-button" data-i18n="cancel">Cancel</button><button value="confirm" class="primary-button" data-i18n="confirm">Confirm</button></div></form></dialog>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

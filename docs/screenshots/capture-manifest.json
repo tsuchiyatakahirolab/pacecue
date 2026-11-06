@@ -1,0 +1,1417 @@
+{
+  "schema_version": 1,
+  "application": "PaceCue",
+  "capture_method": "Official Even Hub simulator HTTP automation, direct framebuffer PNG bytes",
+  "simulator_version": "0.9.5",
+  "sdk_version": "0.0.16",
+  "cli_version": "0.2.0",
+  "environment": "Ubuntu 24.04.3, authenticated Xvfb, GTK/WebKit software rendering",
+  "simulator_arguments": [
+    "http://127.0.0.1:5099/?lang=LOCALE",
+    "--automation-port",
+    "9898",
+    "--no-glow"
+  ],
+  "sandbox_disabling_flags_used": false,
+  "app_bundle": {
+    "path": "dist/assets/index-fVtNwo4P.js",
+    "sha256": "51e4e803dc2946775a51225af4aef016d6499a0befc822c22a90aa7cbb047bb4",
+    "same_javascript_in_both_runs": true
+  },
+  "distribution_hash_note": "THIRD_PARTY_NOTICES.txt was added between the English and Japanese runs. JavaScript, CSS and HTML were unchanged. The English aggregate is reproducible by excluding that notices file from the final dist.",
+  "aggregate_hash_method": "SHA-256 of the concatenation of each UTF-8 relative POSIX filename followed by its raw file bytes, ordered lexicographically over all dist files; no delimiters.",
+  "final_package_reported_by_build_owner": {
+    "bytes": 69425,
+    "sha256": "b184030b2199f742d098a4a9dfc7512cf92059caf79d7643dcf0d117c63b93b2",
+    "note": "The simulator loaded built web assets over local HTTP; it did not install or approve the package."
+  },
+  "files": [
+    {
+      "file": "simulator-en-ready.png",
+      "locale": "en",
+      "state": "ready",
+      "capture_recorded_at_utc": "2026-11-06T12:29:55.312Z",
+      "source_file": "ready-glasses.png",
+      "sha256": "c846195ea9739b7ca4b8a959f9a21670cd9189bcffceecf357cc0e9549f115af",
+      "bytes": 8381,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-en-running.png",
+      "locale": "en",
+      "state": "running",
+      "capture_recorded_at_utc": "2026-11-06T12:30:01.444Z",
+      "source_file": "running-glasses.png",
+      "sha256": "6c9fc3123d15f792c100469f3e6a8b62b99962c7b264f27ce7f7c266db11ccc3",
+      "bytes": 7966,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-en-next.png",
+      "locale": "en",
+      "state": "next",
+      "capture_recorded_at_utc": "2026-11-06T12:30:18.043Z",
+      "source_file": "next-glasses.png",
+      "sha256": "2f8051f7b8ae095865b5a47e2ef6ae165dffa3b961ab28afea709c585b67b9a5",
+      "bytes": 6832,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-en-time.png",
+      "locale": "en",
+      "state": "time",
+      "capture_recorded_at_utc": "2026-11-06T12:30:21.948Z",
+      "source_file": "time-glasses.png",
+      "sha256": "01391697aa9178f164a967e427251c892939676b05ab946602701ab1769e7074",
+      "bytes": 7239,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-en-menu.png",
+      "locale": "en",
+      "state": "menu",
+      "capture_recorded_at_utc": "2026-11-06T12:30:26.638Z",
+      "source_file": "menu-glasses.png",
+      "sha256": "a3ff1194c7095c50fee3aae343376a59209c618a80561647e9271f58118d4199",
+      "bytes": 5310,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-en-paused.png",
+      "locale": "en",
+      "state": "paused",
+      "capture_recorded_at_utc": "2026-11-06T12:30:33.874Z",
+      "source_file": "paused-glasses.png",
+      "sha256": "04af373bdc706f8296f5293100d6569e405f7c5322a70bdfe3559aba0c22d18e",
+      "bytes": 7932,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-en-required-protected.png",
+      "locale": "en",
+      "state": "required-protected",
+      "capture_recorded_at_utc": "2026-11-06T12:31:06.453Z",
+      "source_file": "required-protected-glasses.png",
+      "sha256": "c71a494f9800e369e1ea10084b91bd2291390ca47141d58b84cc9776298b1a7e",
+      "bytes": 8283,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-ready.png",
+      "locale": "ja",
+      "state": "ready",
+      "capture_recorded_at_utc": "2026-11-06T12:31:29.319Z",
+      "source_file": "ready-glasses.png",
+      "sha256": "04ac91edf3fbf063ea5e6f42c78d96f33df936f6f1a94d481e21d4d0efe2dfa4",
+      "bytes": 14220,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-running.png",
+      "locale": "ja",
+      "state": "running",
+      "capture_recorded_at_utc": "2026-11-06T12:31:34.011Z",
+      "source_file": "running-glasses.png",
+      "sha256": "1b81c9feda1304bea24c8f46736c64b1bf9d77b02f8c5e2881e653c7a9f5fdc2",
+      "bytes": 17222,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-next.png",
+      "locale": "ja",
+      "state": "next",
+      "capture_recorded_at_utc": "2026-11-06T12:32:45.573Z",
+      "source_file": "next-glasses.png",
+      "sha256": "55a31c2a48031f9176a96df4e89a0bc3412161ae1b48c622289b44562de6fa3f",
+      "bytes": 12683,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-time.png",
+      "locale": "ja",
+      "state": "time",
+      "capture_recorded_at_utc": "2026-11-06T12:32:52.365Z",
+      "source_file": "time-glasses.png",
+      "sha256": "0179e666e6319e2977c3f3ef1edec47f07068a11cab3c4ed50ca373439a5841b",
+      "bytes": 11721,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-menu.png",
+      "locale": "ja",
+      "state": "menu",
+      "capture_recorded_at_utc": "2026-11-06T12:32:57.482Z",
+      "source_file": "menu-glasses.png",
+      "sha256": "810d1048392843c66b5aa1a4489a7068cd3b75b6b6d91d65323499e0d0689a40",
+      "bytes": 7684,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-paused.png",
+      "locale": "ja",
+      "state": "paused",
+      "capture_recorded_at_utc": "2026-11-06T12:33:01.901Z",
+      "source_file": "paused-glasses.png",
+      "sha256": "e2cda949f30a1590641583b5ac3b0afb8c6a925a047dff00cbff373e8150d1e1",
+      "bytes": 16434,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-optional-skipped.png",
+      "locale": "ja",
+      "state": "optional-skipped",
+      "capture_recorded_at_utc": "2026-11-06T12:33:40.821Z",
+      "source_file": "optional-skipped-glasses.png",
+      "sha256": "9a25817567b3a1911afe7149f9ced33c214bde2dff5a01b9719819b07347d1b6",
+      "bytes": 18292,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    },
+    {
+      "file": "simulator-ja-complete.png",
+      "locale": "ja",
+      "state": "complete",
+      "capture_recorded_at_utc": "2026-11-06T12:33:46.446Z",
+      "source_file": "complete-glasses.png",
+      "sha256": "8c7f2f939daf4f7ebe741c8f0f564321571ba546325d3a7dbe572e8489f64a61",
+      "bytes": 12410,
+      "mode": "RGBA",
+      "width": 576,
+      "height": 288,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "unmodified_copy": true
+    }
+  ],
+  "runs": [
+    {
+      "locale": "en",
+      "start_utc": "2026-11-06T12:29:52.105Z",
+      "last_recorded_operation_utc": "2026-11-06T12:31:14.151Z",
+      "dist_sha256": "a9c8c61fd1958222d61c93443d826c593a9eecc7209aa94070e1db1fdce84fae",
+      "api_input_count": 12,
+      "capture_pair_count": 10,
+      "console_entry_count": 88,
+      "console_sha256": "f96dd182a07ce811aee0ed00a4fec256f9fa8bd43a0cb9a755f4cf791db154b0",
+      "application_warning_error_count": 0,
+      "warning_error_entries": [
+        {
+          "id": 1,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968195124
+        },
+        {
+          "id": 2,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968195124
+        },
+        {
+          "id": 4,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/even_app_message",
+          "ts": 1793968195125
+        },
+        {
+          "id": 5,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968195125
+        },
+        {
+          "id": 6,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968195125
+        },
+        {
+          "id": 7,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968195125
+        },
+        {
+          "id": 8,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968195125
+        },
+        {
+          "id": 9,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968195125
+        },
+        {
+          "id": 10,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968195125
+        },
+        {
+          "id": 11,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968195125
+        }
+      ],
+      "transport_note": "All warn/error entries were initial Tauri custom IPC protocol fetch failures followed by its logged postMessage fallback. The application and native input/display operations continued successfully.",
+      "operations": [
+        {
+          "recorded_at_utc": "2026-11-06T12:29:52.105Z",
+          "op": "start",
+          "locale": "en",
+          "dist_sha256": "a9c8c61fd1958222d61c93443d826c593a9eecc7209aa94070e1db1fdce84fae"
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:29:55.312Z",
+          "op": "capture",
+          "name": "ready",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "ready-glasses.png",
+              "sha256": "c846195ea9739b7ca4b8a959f9a21670cd9189bcffceecf357cc0e9549f115af",
+              "bytes": 8381,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "ready-webview.png",
+              "sha256": "5a4cb685cc8ca9d53ba548ec8e29b656045d32ef1708a1575d3ce23a71cec512",
+              "bytes": 43317,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:29:55.313Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:01.444Z",
+          "op": "capture",
+          "name": "running",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "running-glasses.png",
+              "sha256": "6c9fc3123d15f792c100469f3e6a8b62b99962c7b264f27ce7f7c266db11ccc3",
+              "bytes": 7966,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "running-webview.png",
+              "sha256": "e361b02113db90d4e32694a8bb24cd1b6f5f50bba526c76830b679bbce33ac2f",
+              "bytes": 42901,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:01.445Z",
+          "op": "input",
+          "action": "down",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:18.043Z",
+          "op": "capture",
+          "name": "next",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "next-glasses.png",
+              "sha256": "2f8051f7b8ae095865b5a47e2ef6ae165dffa3b961ab28afea709c585b67b9a5",
+              "bytes": 6832,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "next-webview.png",
+              "sha256": "e361b02113db90d4e32694a8bb24cd1b6f5f50bba526c76830b679bbce33ac2f",
+              "bytes": 42901,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:18.044Z",
+          "op": "input",
+          "action": "down",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:21.948Z",
+          "op": "capture",
+          "name": "time",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "time-glasses.png",
+              "sha256": "01391697aa9178f164a967e427251c892939676b05ab946602701ab1769e7074",
+              "bytes": 7239,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "time-webview.png",
+              "sha256": "e361b02113db90d4e32694a8bb24cd1b6f5f50bba526c76830b679bbce33ac2f",
+              "bytes": 42901,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:21.950Z",
+          "op": "input",
+          "action": "context_menu",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:26.638Z",
+          "op": "capture",
+          "name": "menu",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "menu-glasses.png",
+              "sha256": "a3ff1194c7095c50fee3aae343376a59209c618a80561647e9271f58118d4199",
+              "bytes": 5310,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "menu-webview.png",
+              "sha256": "e361b02113db90d4e32694a8bb24cd1b6f5f50bba526c76830b679bbce33ac2f",
+              "bytes": 42901,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:26.639Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:33.874Z",
+          "op": "capture",
+          "name": "paused",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "paused-glasses.png",
+              "sha256": "04af373bdc706f8296f5293100d6569e405f7c5322a70bdfe3559aba0c22d18e",
+              "bytes": 7932,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "paused-webview.png",
+              "sha256": "fb595cbf308151797ebaa8a00a4cb53bfeee831a80b9dbda99d3711218ed94f2",
+              "bytes": 42898,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:33.875Z",
+          "op": "input",
+          "action": "context_menu",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:36.926Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:41.212Z",
+          "op": "capture",
+          "name": "resumed",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "resumed-glasses.png",
+              "sha256": "bafc36a30eb80d19ff4cc58cbc9995840d6c04a3e9b55959e4d32deeb8cfd896",
+              "bytes": 7992,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "resumed-webview.png",
+              "sha256": "fb595cbf308151797ebaa8a00a4cb53bfeee831a80b9dbda99d3711218ed94f2",
+              "bytes": 42898,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:41.213Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:55.334Z",
+          "op": "capture",
+          "name": "step-two",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "step-two-glasses.png",
+              "sha256": "c82ab14436ba7208662b690f8e11231ea735d98d8a638f6f668f3f5232a3d501",
+              "bytes": 8250,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "step-two-webview.png",
+              "sha256": "f47f2da2e47bdfb386c2409a3012555ec43dc3de9c5dec941db7bf8e64970a4d",
+              "bytes": 42951,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:55.336Z",
+          "op": "input",
+          "action": "context_menu",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:30:58.474Z",
+          "op": "input",
+          "action": "down",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:01.905Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:06.453Z",
+          "op": "capture",
+          "name": "required-protected",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "required-protected-glasses.png",
+              "sha256": "c71a494f9800e369e1ea10084b91bd2291390ca47141d58b84cc9776298b1a7e",
+              "bytes": 8283,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "required-protected-webview.png",
+              "sha256": "f47f2da2e47bdfb386c2409a3012555ec43dc3de9c5dec941db7bf8e64970a4d",
+              "bytes": 42951,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:06.454Z",
+          "op": "input",
+          "action": "double_click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:14.151Z",
+          "op": "capture",
+          "name": "exit-cleared",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "exit-cleared-glasses.png",
+              "sha256": "d032588b13c17158c485d0b2bf857d8bab26eee02e96e18813d61fb3b1859daa",
+              "bytes": 3969,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                0
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "exit-cleared-webview.png",
+              "sha256": "f47f2da2e47bdfb386c2409a3012555ec43dc3de9c5dec941db7bf8e64970a4d",
+              "bytes": 42951,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "locale": "ja",
+      "start_utc": "2026-11-06T12:31:25.943Z",
+      "last_recorded_operation_utc": "2026-11-06T12:33:46.446Z",
+      "dist_sha256": "274c09e2defe8081ab98cc335d6bf82b1e303e3c489dc4ad5eceaeeae54111e1",
+      "api_input_count": 13,
+      "capture_pair_count": 11,
+      "console_entry_count": 100,
+      "console_sha256": "cf479b68a240bf04848b0e27052bad54a687d01d9f703978819f6d2995d68431",
+      "application_warning_error_count": 0,
+      "warning_error_entries": [
+        {
+          "id": 1,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968288661
+        },
+        {
+          "id": 2,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968288661
+        },
+        {
+          "id": 4,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/even_app_message",
+          "ts": 1793968288661
+        },
+        {
+          "id": 5,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968288661
+        },
+        {
+          "id": 6,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968288662
+        },
+        {
+          "id": 7,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968288662
+        },
+        {
+          "id": 8,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968288662
+        },
+        {
+          "id": 9,
+          "level": "error",
+          "message": "[fetch] Load failed ipc://localhost/console_log",
+          "ts": 1793968288662
+        },
+        {
+          "id": 10,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968288662
+        },
+        {
+          "id": 11,
+          "level": "warn",
+          "message": "IPC custom protocol failed, Tauri will now use the postMessage interface instead {}",
+          "ts": 1793968288662
+        }
+      ],
+      "transport_note": "All warn/error entries were initial Tauri custom IPC protocol fetch failures followed by its logged postMessage fallback. The application and native input/display operations continued successfully.",
+      "operations": [
+        {
+          "recorded_at_utc": "2026-11-06T12:31:25.943Z",
+          "op": "start",
+          "locale": "ja",
+          "dist_sha256": "274c09e2defe8081ab98cc335d6bf82b1e303e3c489dc4ad5eceaeeae54111e1"
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:29.319Z",
+          "op": "capture",
+          "name": "ready",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "ready-glasses.png",
+              "sha256": "04ac91edf3fbf063ea5e6f42c78d96f33df936f6f1a94d481e21d4d0efe2dfa4",
+              "bytes": 14220,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "ready-webview.png",
+              "sha256": "563f9ad3846a993d27c31f88a5637da11287784efc406140837773e9378aa8e6",
+              "bytes": 16390,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:29.320Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:34.011Z",
+          "op": "capture",
+          "name": "running",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "running-glasses.png",
+              "sha256": "1b81c9feda1304bea24c8f46736c64b1bf9d77b02f8c5e2881e653c7a9f5fdc2",
+              "bytes": 17222,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "running-webview.png",
+              "sha256": "98ec434b5745e4ec5a911d8223103f280290dffb0265878167ec1baee3e79b30",
+              "bytes": 16179,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:31:34.012Z",
+          "op": "input",
+          "action": "down",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:32:45.573Z",
+          "op": "capture",
+          "name": "next",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "next-glasses.png",
+              "sha256": "55a31c2a48031f9176a96df4e89a0bc3412161ae1b48c622289b44562de6fa3f",
+              "bytes": 12683,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "next-webview.png",
+              "sha256": "98ec434b5745e4ec5a911d8223103f280290dffb0265878167ec1baee3e79b30",
+              "bytes": 16179,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:32:45.574Z",
+          "op": "input",
+          "action": "down",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:32:52.365Z",
+          "op": "capture",
+          "name": "time",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "time-glasses.png",
+              "sha256": "0179e666e6319e2977c3f3ef1edec47f07068a11cab3c4ed50ca373439a5841b",
+              "bytes": 11721,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "time-webview.png",
+              "sha256": "98ec434b5745e4ec5a911d8223103f280290dffb0265878167ec1baee3e79b30",
+              "bytes": 16179,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:32:52.366Z",
+          "op": "input",
+          "action": "context_menu",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:32:57.482Z",
+          "op": "capture",
+          "name": "menu",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "menu-glasses.png",
+              "sha256": "810d1048392843c66b5aa1a4489a7068cd3b75b6b6d91d65323499e0d0689a40",
+              "bytes": 7684,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "menu-webview.png",
+              "sha256": "98ec434b5745e4ec5a911d8223103f280290dffb0265878167ec1baee3e79b30",
+              "bytes": 16179,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:32:57.483Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:01.901Z",
+          "op": "capture",
+          "name": "paused",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "paused-glasses.png",
+              "sha256": "e2cda949f30a1590641583b5ac3b0afb8c6a925a047dff00cbff373e8150d1e1",
+              "bytes": 16434,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "paused-webview.png",
+              "sha256": "98ec434b5745e4ec5a911d8223103f280290dffb0265878167ec1baee3e79b30",
+              "bytes": 16179,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:01.902Z",
+          "op": "input",
+          "action": "context_menu",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:06.999Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:12.195Z",
+          "op": "capture",
+          "name": "resumed",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "resumed-glasses.png",
+              "sha256": "ded9c5e5feb76377d030d24bcca0ed2bdf691257516a310319a7e3bf05be27df",
+              "bytes": 17260,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "resumed-webview.png",
+              "sha256": "98ec434b5745e4ec5a911d8223103f280290dffb0265878167ec1baee3e79b30",
+              "bytes": 16179,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:12.196Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:20.331Z",
+          "op": "capture",
+          "name": "step-two",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "step-two-glasses.png",
+              "sha256": "7728204e6ca0ae609f66880014a0c160f8eff74810393beb1f39730385519339",
+              "bytes": 18631,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "step-two-webview.png",
+              "sha256": "116030c2ed8a78269a1b3393d2b400a2f78e73a431d4721ecd904f571b38c09c",
+              "bytes": 16232,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:20.332Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:30.330Z",
+          "op": "capture",
+          "name": "optional-step",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "optional-step-glasses.png",
+              "sha256": "3ecc13aa28591743da716dc95b67b55e88e71047e89b65a5c74751de53632cea",
+              "bytes": 17610,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "optional-step-webview.png",
+              "sha256": "aa275020470069f46b652bef892c8609821bf0fbb73729cbd01ce958c88f02fc",
+              "bytes": 16225,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:30.331Z",
+          "op": "input",
+          "action": "context_menu",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:34.594Z",
+          "op": "input",
+          "action": "down",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:34.596Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:40.821Z",
+          "op": "capture",
+          "name": "optional-skipped",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "optional-skipped-glasses.png",
+              "sha256": "9a25817567b3a1911afe7149f9ced33c214bde2dff5a01b9719819b07347d1b6",
+              "bytes": 18292,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "optional-skipped-webview.png",
+              "sha256": "11be827c4002776e72a7cc5bb964c3123a2e07c22dd0360455de88563bad6b79",
+              "bytes": 16112,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:40.822Z",
+          "op": "input",
+          "action": "click",
+          "response": {
+            "ok": true
+          }
+        },
+        {
+          "recorded_at_utc": "2026-11-06T12:33:46.446Z",
+          "op": "capture",
+          "name": "complete",
+          "surfaces": [
+            {
+              "surface": "glasses",
+              "source_file": "complete-glasses.png",
+              "sha256": "8c7f2f939daf4f7ebe741c8f0f564321571ba546325d3a7dbe572e8489f64a61",
+              "bytes": 12410,
+              "mode": "RGBA",
+              "size": [
+                576,
+                288
+              ],
+              "alpha_extrema": [
+                0,
+                255
+              ]
+            },
+            {
+              "surface": "webview",
+              "source_file": "complete-webview.png",
+              "sha256": "f4561d2d7b1d30e057874838556839b0c66a23f97e82a0166a50b4df75ae143c",
+              "bytes": 16566,
+              "mode": "RGB",
+              "size": [
+                600,
+                800
+              ],
+              "alpha_extrema": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "observed_checks": [
+    {
+      "locale": "en,ja",
+      "check": "Ready screen, explicit start, next/time swipes",
+      "result": "passed"
+    },
+    {
+      "locale": "en,ja",
+      "check": "Native context menu labels and pause/resume; selected menu click did not complete the current step",
+      "result": "passed"
+    },
+    {
+      "locale": "en,ja",
+      "check": "Explicit current-step completion advances the step",
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "check": "Selecting Skip optional on required step 2 leaves step 2 current",
+      "result": "passed"
+    },
+    {
+      "locale": "ja",
+      "check": "Selecting optional skip on step 3 advances to step 4, then explicit completion reaches completed screen",
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "check": "Double-click event clears simulator framebuffer; no subsequent display writes or application errors",
+      "result": "passed"
+    },
+    {
+      "locale": "en,ja",
+      "check": "Selected actual native screenshots: text, Japanese glyphs, two-line footer and localized menu fit 576x288",
+      "result": "passed"
+    }
+  ],
+  "limits": [
+    "No physical Even G2 or R1 was available.",
+    "The simulator context_menu input was used; the physical tap-plus-long-press gesture sequence was not tested.",
+    "Simulator double-click cleared the page; no exit confirmation dialog or SYSTEM_EXIT_EVENT was observed. Physical confirmation and cancellation remain unverified.",
+    "Phone-lock behavior, Bluetooth disconnection/reconnection, physical battery use and real-device persistence remain unverified.",
+    "No Even Hub review, approval or public release is implied by these captures."
+  ],
+  "counts": {
+    "runs": 2,
+    "native_api_inputs": 25,
+    "capture_pairs": 21,
+    "captured_pngs": 42,
+    "selected_unmodified_glasses_pngs": 15,
+    "console_entries": 188
+  }
+}

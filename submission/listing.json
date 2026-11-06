@@ -1,0 +1,23 @@
+{
+  "name": "PaceCue",
+  "package_id": "com.tsuchiyalab.pacecue",
+  "version": "0.1.0",
+  "developer": "TSUCHIYA LAB",
+  "category": "Productivity",
+  "tags": [
+    "routine",
+    "timer",
+    "planning",
+    "productivity"
+  ],
+  "tagline": {
+    "en": "Fit your routine to the time you have.",
+    "ja": "終了時刻に合わせて、残りの手順と時間を調整。"
+  },
+  "permissions": [],
+  "supported_languages": [
+    "en",
+    "ja"
+  ],
+  "status": "prepared_not_submitted"
+}
